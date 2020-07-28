@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>user@home > newtab</title>
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+
+	</head>
+
+	<body id="background">
+
+		<div class="container">
+
+			<div class="innerContainer">
+
+					<div class="header">
+
+						<div class="grid-3">
+
+							<a class="weather" href="https://www.accuweather.com/en/us/fort-lauderdale-fl/33332/weather-forecast/14475_pc"><div class="temp" id="temp"></div></a>
+
+						</div>
+
+						<div class="grid-6">
+
+							<p>welcome, brian</p>	
+							
+						</div>
+
+						<div class="grid-3">
+
+							<div class="timeHeader" id="time"></div>
+							
+						</div>
+					
+					</div>
+
+				<div class="listContainer">
+						
+						<ul class="grid-3">
+							<li>social</li>
+							<li><a href="https://www.reddit.com/">reddit</a></li>
+							<li><a href="https://www.twitter.com/">twitter</a></li>
+							<li><a href="https://www.youtube.com/">youtube</a></li>
+							<li><a href="http://192.168.1.55:32400/web/index.html#">plex</a></li>
+							<li><a href="https://www.netflix.com/">netflix</a></li>
+						</ul>
+
+						<ul class="grid-3">
+							<li>school</li>
+							<li><a href="https://my.fiu.edu">myfiu</a></li>
+							<li><a href="https://www.https://fiu.instructure.com">canvas</a></li>
+							<li><a href="https://ng.cengage.com/static/nb/ui/evo/index.html?snapshotId=1528245&id=677242858&deploymentId=59260322196010833077319343166&eISBN=9780357041765">cengage</a></li>
+						</ul>
+
+						<ul class="grid-3">
+							<li>productivity</li>
+							<li><a href="https://drive.google.com/drive/u/2/my-drive">google drive</a></li>
+							<li><a href="https://mail.google.com/mail/u/0/#inbox">gmail</a></li>
+							<li><a href="https://calendar.google.com/calendar/r?tab=oc">calendar</a></li>
+						</ul>
+
+						<ul class="grid-3">
+							<li>misc</li>
+							<li><a href="https://steamcommunity.com/app/255710/workshop/">steam workshop</a></li>
+							<li><a href="https://admin.google.com/u/3/ac/home">gsuite</a></li>
+						</ul>					
+
+				</div>
+
+			</div>
+		</div>
+
+		<script type="text/javascript" src="script.js"></script>
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+	    <script type="text/javascript">
+		   $(function() {
+		    var images = ['bg1.jpg', 'bg2.jpg', 'bg3.jpg'];
+		    $('#background').css({'background-image': 'url(images/' + images[Math.floor(Math.random() * images.length)] + ')'});
+		   });
+		  </script>
+
+	    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+	</body>
+
+	
+
+</html>
